@@ -1,0 +1,248 @@
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page {
+  background: #ffffff;
+  font-family: Roboto, sans-serif;
+  color: var(--primery-text-color);
+}
+button {
+  font-family: inherit;
+}
+/* Макет Студия */
+.list {
+  list-style: none;
+}
+.link-style {
+  text-decoration: none;
+}
+.address-style {
+  font-style: normal;
+}
+/* Навигация сайта */
+.site-nav .link {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/*Логотип */
+.logo {
+  color: var(--primery-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-color {
+  color: var(--accent-color);
+}
+.logo-color-footer {
+  color: var(--white-color);
+}
+
+/* Контакты */
+
+.contact-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 0;
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  background: #188ce8;
+}
+/* Особености */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* Наши работы */
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша Команда */
+.team {
+  background-color: #f5f4fa;
+}
+.team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  color: var(--title-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/* Подвал Студио-портфолио*/
+.footer {
+  background: #2f303a;
+}
+
+.footer .adress {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Филтр-Кнопки */
+.portfolio .filtr .filtr-button {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio .filtr .filtr-button:hover,
+.portfolio .filtr .filtr-button:focus {
+  background: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* Проекты */
+.portfolio .title {
+  visibility: hidden;
+}
+
+.portfolio-list .portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .portfolio-text {
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
