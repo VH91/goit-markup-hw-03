@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
 }
+
 p,
 h1,
 h2,
@@ -18,6 +19,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -28,25 +30,68 @@ ul {
 button {
   cursor: pointer;
 }
+.img {
+  display: block;
+}
 
 .page {
   background: #ffffff;
   font-family: Roboto, sans-serif;
   color: var(--primery-text-color);
 }
+
 button {
   font-family: inherit;
 }
+
 /* Макет Студия */
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.contact {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+.header-connect {
+  margin-left: auto;
+}
+
 .list {
   list-style: none;
 }
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .link-style {
   text-decoration: none;
 }
+
 .address-style {
   font-style: normal;
 }
+
+.contact-link {
+  margin-left: 50px;
+}
+
 /* Навигация сайта */
 .site-nav .link {
   color: var(--primery-text-color);
@@ -55,6 +100,7 @@ button {
   line-height: 1.12;
   letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .current {
@@ -74,6 +120,7 @@ button {
 .logo-color {
   color: var(--accent-color);
 }
+
 .logo-color-footer {
   color: var(--white-color);
 }
@@ -87,6 +134,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .contact .contact-link:hover,
 .contact .contact-link:focus {
   color: var(--accent-color);
@@ -105,9 +153,15 @@ button {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .hero {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
+
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -122,7 +176,6 @@ button {
 .hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 16px;
   line-height: 1.88;
   display: flex;
   align-items: center;
@@ -133,12 +186,36 @@ button {
   cursor: pointer;
   border-radius: 4px;
   border: 0;
+  padding-left: 32px;
 }
+
+.btn {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
 .hero .hero-button:hover,
 .hero .hero-button:focus {
   background: #188ce8;
 }
+
 /* Особености */
+.features-list {
+  margin-right: 30px;
+  display: flex;
+}
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 215px;
+  padding-left: 215px;
+  margin-right: 30px;
+}
 
 .features-title {
   font-weight: 700;
@@ -155,7 +232,22 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 /* Наши работы */
+
+.about {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
+.about-list {
+  display: flex;
+  padding-top: 50px;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .work-title {
   font-weight: 700;
@@ -169,6 +261,7 @@ button {
 .team {
   background-color: #f5f4fa;
 }
+
 .team .title {
   font-weight: 700;
   font-size: 36px;
@@ -191,6 +284,7 @@ button {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
+
 /* Подвал Студио-портфолио*/
 .footer {
   background: #2f303a;
@@ -203,6 +297,7 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -220,6 +315,7 @@ button {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
+
 .portfolio .filtr .filtr-button:hover,
 .portfolio .filtr .filtr-button:focus {
   background: var(--accent-color);

@@ -23,110 +23,121 @@
   <body class="page">
     <!-- Шапка сайта -->
     <header class="page">
-      <div class="container">
-        <nav>
-          <a href="./index.html" class="logo link-style logo-color"
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="logo header-logo link-style logo-color"
             >Web<span class="logo">Studio</span></a
           >
           <ul class="site-nav list">
-            <li>
+            <li class="menu-item">
               <a class="current navigation-link link link-style" href="#"
                 >Студия</a
               >
             </li>
-            <li>
+            <li class="menu-item">
               <a class="navigation-link link link-style" href="./portfolio.html"
                 >Портфолио</a
               >
             </li>
-            <li>
+            <li class="menu-item">
               <a class="navigation-link link link-style" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact list">
-          <li>
-            <a class="contact-link link-style" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-link link-style" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <div class="header-connect">
+          <ul class="contact list">
+            <li>
+              <a
+                class="contact-link link-style"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link link-style" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
       <!-- Секция герой -->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button class="hero-button btn" type="button">Заказать услугу</button>
       </section>
       <!-- Секция внимание к деталям -->
       <section class="features">
-        <h2 class="visually-hidden">Внимание к деталям</h2>
-        <ul class="list">
-          <li>
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="conteiner">
+          <h2 class="visually-hidden">Внимание к деталям</h2>
+          <ul class="features-list list">
+            <li>
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="features-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="features-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">Планирование</h3>
+              <p class="features-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="features-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Секция чем мы занимаемся -->
-      <section>
-        <h2 class="work-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
-            <img
-              src="./img/keyboard.jpg"
-              alt="печтает на клавиатуре"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/notebook.jpg"
-              alt="держит в руках телефон на фоне ноутбука"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="./img/tablet.jpg"
-              alt="держит в руках планшет"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+      <section class="about">
+        <div class="container">
+          <h2 class="work-title">Чем мы занимаемся</h2>
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                class="img"
+                src="./img/keyboard.jpg"
+                alt="печтает на клавиатуре"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                class="img"
+                src="./img/notebook.jpg"
+                alt="держит в руках телефон на фоне ноутбука"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                class="img"
+                src="./img/tablet.jpg"
+                alt="держит в руках планшет"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Секция наша команда -->
       <section class="team">
@@ -134,6 +145,7 @@
         <ul class="list">
           <li>
             <img
+              class="img"
               src="./img/product-designer.jpg"
               alt="дизайнер продукта"
               width="270"
@@ -144,6 +156,7 @@
           </li>
           <li>
             <img
+              class="img"
               src="./img/frontend-developer.jpg"
               alt="фронтенд разработчик"
               width="270"
@@ -154,6 +167,7 @@
           </li>
           <li>
             <img
+              class="img"
               src="./img/marketing.jpg"
               alt="маркетолог"
               width="270"
@@ -164,6 +178,7 @@
           </li>
           <li>
             <img
+              class="img"
               src="./img/ul-designer.jpg"
               alt="юл дизайнер"
               width="270"
