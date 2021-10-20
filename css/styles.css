@@ -361,10 +361,6 @@ button {
   list-style: none;
 }
 
-.style-footer {
-  text-align: center;
-}
-
 .footer .contact-style:hover,
 .footer .contact-style:focus {
   color: var(--accent-color);
