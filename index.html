@@ -20,10 +20,11 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body class="page">
     <!-- Шапка сайта -->
     <header class="page">
-      <div class="container header-container">
+      <div class="contanier header-contanier">
         <nav class="header-nav">
           <a href="./index.html" class="logo header-logo link-style logo-color"
             >Web<span class="logo">Studio</span></a
@@ -54,7 +55,9 @@
               >
             </li>
             <li>
-              <a class="contact-link link-style" href="tel:+380961111111"
+              <a
+                class="contact-link link-style contact-style"
+                href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
@@ -65,12 +68,14 @@
     <main>
       <!-- Секция герой -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-button btn" type="button">Заказать услугу</button>
+        <div class="contanier">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-button btn" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Секция внимание к деталям -->
       <section class="features">
-        <div class="container">
+        <div class="contanier">
           <h2 class="visually-hidden">Внимание к деталям</h2>
           <ul class="features-list list">
             <li class="item">
@@ -106,7 +111,7 @@
       </section>
       <!-- Секция чем мы занимаемся -->
       <section class="about">
-        <div class="container">
+        <div class="contanier">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="about-list list">
             <li class="about-item">
@@ -141,8 +146,8 @@
       </section>
       <!-- Секция наша команда -->
       <section class="team">
-        <div class="conteiner">
-          <h2 class="title">Наша команда</h2>
+        <h2 class="title">Наша команда</h2>
+        <div class="contanier">
           <ul class="team-flex list">
             <li class="item">
               <img
@@ -201,31 +206,27 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer>
-      <section class="footer">
-        <div class="conteiner">
-          <h2>
-            <a href="./index.html" class="logo link-style logo-color">
-              Web<span class="logo-color-footer">Studio</span></a
+    <footer class="footer">
+      <div class="contanier">
+        <a href="./index.html" class="logo-footer logo link-style logo-color">
+          Web<span class="logo-color-footer">Studio</span></a
+        >
+        <p class="adress footer-list">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul>
+          <li class="item footer-list">
+            <a
+              class="style-footer contact-style link link-style"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
-          </h2>
-          <address class="address-style">
-            <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="footter-list list">
-              <li class="item">
-                <a class="link link-style" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="item">
-                <a class="link link-style" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
-      </section>
+          </li>
+          <li class="item footer-list">
+            <a class="contact-style link link-style" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
