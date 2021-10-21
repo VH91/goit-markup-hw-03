@@ -16,6 +16,7 @@ h6 {
 }
 
 ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -79,6 +80,8 @@ button {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-item:not(:last-child) {
@@ -126,9 +129,7 @@ button {
 
 .logo-footer {
   display: block;
-
   margin-bottom: 20px;
-
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -153,6 +154,11 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+  color: var(--accent-color);
 }
 
 /* Герой */
@@ -225,6 +231,7 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
   margin-left: -30px;
+  width: 270px;
 }
 
 .features-list {
@@ -339,7 +346,7 @@ button {
   background: #2f303a;
 }
 
-.footer .adress {
+.footer .address {
   color: var(--white-color);
   font-weight: 400;
   font-size: 14px;
@@ -361,8 +368,8 @@ button {
   list-style: none;
 }
 
-.footer .contact-style:hover,
-.footer .contact-style:focus {
+.footer .contact-address:hover,
+.footer .contact-address:focus {
   color: var(--accent-color);
 }
 
