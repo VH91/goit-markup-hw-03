@@ -284,6 +284,9 @@ button {
 
 .about-item:not(:last-child) {
   margin-right: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .work-title {
@@ -386,7 +389,7 @@ button {
 
 .portfolio {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 50px;
 }
 
 .portfolio .filtr {
@@ -461,4 +464,8 @@ button {
   padding: 20px 24px 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+}
+
+.first-child {
+  margin-left: 0;
 }
