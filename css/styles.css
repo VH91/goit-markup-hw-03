@@ -34,12 +34,15 @@ button {
 
 .img {
   display: block;
+  height: auto;
+  max-width: none;
 }
 
 .page {
   background: #ffffff;
   font-family: Roboto, sans-serif;
   color: var(--primery-text-color);
+  border-bottom: 1px solid #ececec;
 }
 
 button {
@@ -72,6 +75,7 @@ button {
 
 .header-nav {
   display: flex;
+  margin-right: 331px;
 }
 
 .header-connect {
@@ -86,6 +90,8 @@ button {
 
 .menu-item:not(:last-child) {
   margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-style {
@@ -93,7 +99,7 @@ button {
 }
 
 .contact-style {
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .address-style {
@@ -154,6 +160,8 @@ button {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact .contact-link:hover,
@@ -230,11 +238,11 @@ button {
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-left: -30px;
 }
 
 .features-list {
   display: flex;
+  margin-left: -30px;
 }
 
 .features .item {
@@ -316,6 +324,7 @@ button {
 .team-flex {
   display: flex;
   width: 270px;
+  margin-left: -30px;
 }
 
 .team-flex .item {
@@ -335,6 +344,7 @@ button {
   padding-top: 30px;
   padding-bottom: 30px;
   background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* Подвал Студио-портфолио*/
@@ -381,7 +391,7 @@ button {
 
 .portfolio .filtr {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   text-align: center;
   justify-content: center;
 }
@@ -403,7 +413,8 @@ button {
 }
 
 .portfolio .filtr .filtr-button:hover,
-.portfolio .filtr .filtr-button:focus {
+.portfolio .filtr .filtr-button:focus,
+.portfolio .filtr .active-button {
   background: var(--accent-color);
   color: var(--white-color);
 }
